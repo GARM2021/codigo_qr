@@ -13,7 +13,7 @@ $filename = $dir.'test.png';
 $tamanio = 10;
 $lavel = 'M';
 $frameSize = 3;
-$contenido = 'Hola Mundo';
+$contenido = 'Gabriel Del Real Márquez';
 
 QRcode::png($contenido, $filename, $lavel, $tamanio, $frameSize);
 
