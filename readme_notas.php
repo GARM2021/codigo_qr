@@ -1,9 +1,10 @@
 //! 20220524  
 
 http://localhost:8080/codigo_qr/
+http://localhost:8080/codigo_qr/index_decode.php
 
 /*----- ----- ----- ----- */
-/*//!   index_v1.php      */
+/*//!   index_code.php      */
 /*----- ----- ----- ----- */
 
 primera pista 
@@ -16,12 +17,12 @@ https://www.jose-aguilar.com/blog/generar-codigos-qr-php/
 
 http://sourceforge.net/apps/mediawiki/phpqrcode/index.php?title=Main_Page
 
-2.- Se definio el  index_v1.php 
+2.- Se definio el  index_code.php 
 
 3.- La variable $contenido contiene el string a codificar
 
 *----- ----- ----- ----- */
-/*//!   index.html     */
+/*//!   index_dedode.html     */
 /*----- ----- ----- ----- */
 
 1.- De esta pagina se instalo
@@ -34,7 +35,7 @@ html5-qrcode.min.js
 
 3. Se creo el 
 
-index.html 
+index_decode.html 
 
 4.- Se consulto para pasar la variable de javascript a php
 
