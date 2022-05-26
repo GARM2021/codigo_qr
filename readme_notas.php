@@ -42,4 +42,34 @@ https://www.estrellateyarde.org/manual-de-javascript/manual-de-javascript-pasar-
 
 5.- Para combinar html5 javascript php debe ser el archivo .php
 
+*----- ----- ----- ----- */
+/*//!action_page.html     */
+/*----- ----- ----- ----- */
 
+1.- Para mostrar el contenido decodificado me base en 
+
+https://www.youtube.com/watch?v=s1fDc8Ijjmk
+
+*----- ----- ----- ----- */
+/*//!Enviar datos a la misma pagina PHP    */
+/*----- ----- ----- ----- */
+
+1.- El archivo que contiene el codigo debe tener la extension .php 
+
+2.- <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post">
+        .... codigo ....
+
+        <input type="submit" value="Calcular" name="enviar">
+</form>
+
+3.- <?php 
+    if(isset($_POST['enviar'])) {
+        $nombre = $_POST['nombre'];
+        $nota1 = $_POST['nota1'];
+        $nota2 = $_POST['nota2'];
+        $promedio = ($nota1 + $nota2 ) / 2;
+        echo  "<p>{$nombre}, tu promedio es : {$promedio}</p>";
+
+    }
+
+?>

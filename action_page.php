@@ -31,9 +31,9 @@ if (isset($_POST["scanresultado"])) {
 
 ?>
 
-<form action="/codigo_qr/action_page.php" method="post">
+<!-- <form action="/codigo_qr/action_page.php" method="post"> -->
     <input type="text" name="txtmendaje2" value="<?php echo $phpVar1; ?>" >
-</form>
+<!-- </form> -->
 
 <!-- <script type="text/javascript">
     function ResultadoScan () {
